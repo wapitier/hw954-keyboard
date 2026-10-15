@@ -1,0 +1,6 @@
+if SHIELD_HW954_TEST
+
+config ZMK_KEYBOARD_NAME
+    default "HW954 USB Test"
+
+endif
