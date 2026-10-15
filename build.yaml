@@ -1,3 +1,7 @@
 include:
   - board: nice_nano_v2
-    shield: hw954_test
+    shield: hw954_sender
+  - board: nice_nano_v2
+    shield: hw954_receiver
+  - board: nice_nano_v2
+    shield: settings_reset

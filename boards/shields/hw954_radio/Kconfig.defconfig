@@ -1,0 +1,19 @@
+if SHIELD_HW954_SENDER || SHIELD_HW954_RECEIVER
+
+config ZMK_KEYBOARD_NAME
+    default "HW954 Radio"
+
+config ZMK_SPLIT
+    default y
+
+endif
+
+if SHIELD_HW954_RECEIVER
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
+    default 1
+
+endif

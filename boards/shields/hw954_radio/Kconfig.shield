@@ -1,0 +1,5 @@
+config SHIELD_HW954_SENDER
+    def_bool $(shields_list_contains,hw954_sender)
+
+config SHIELD_HW954_RECEIVER
+    def_bool $(shields_list_contains,hw954_receiver)
