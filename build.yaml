@@ -1,10 +1,7 @@
 include:
   - board: nice_nano_v2
     shield: hw954_sender
-    artifact-name: B-sender-no-log
+    artifact-name: B-sender-clean
   - board: nice_nano_v2
     shield: hw954_receiver
-    snippet: zmk-usb-logging
-    artifact-name: A-receiver-log
-  - board: nice_nano_v2
-    shield: settings_reset
+    artifact-name: A-receiver-F15
