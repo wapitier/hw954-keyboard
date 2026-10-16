@@ -1,0 +1,18 @@
+﻿Key,Board marking,GPIO,Function
+1,008,P0.08,Login: SPACE 3 2 6 2 (no Enter)
+2,006,P0.06,Alt+F4
+3,017,P0.17,F16: hold 3s in AutoHotkey
+4,020,P0.20,F13: App A
+5,022,P0.22,F14: App B
+6,024,P0.24,F15: Chrome
+7,100,P1.00,Up
+8,011,P0.11,Down
+9,104,P1.04,Left
+10,106,P1.06,Right
+11,111,P1.11,Enter
+12,113,P1.13,Volume up
+13,115,P1.15,Volume down
+14,002,P0.02,PageUp
+15,029,P0.29,PageDown
+16,031,P0.31,Backspace
+17,101,P1.01,Space

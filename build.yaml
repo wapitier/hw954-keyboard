@@ -1,7 +1,7 @@
 include:
   - board: nice_nano_v2
     shield: hw954_sender
-    artifact-name: B-sender-clean
+    artifact-name: B-keyboard-17keys
   - board: nice_nano_v2
     shield: hw954_receiver
-    artifact-name: A-receiver-F15
+    artifact-name: A-receiver-17keys
