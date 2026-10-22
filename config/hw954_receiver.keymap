@@ -30,7 +30,7 @@
                 &kp F13
                 &kp RIGHT
                 &login_sequence
-                &kp LA(F4)
+                &kp F17
                 &kp F16
             >;
         };
