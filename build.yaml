@@ -1,7 +1,7 @@
 include:
   - board: nice_nano_v2
     shield: hw954_sender
-    artifact-name: B-keyboard-20261024
+    artifact-name: B-keyboard-20261028
   - board: nice_nano_v2
     shield: hw954_receiver
-    artifact-name: A-receiver-double-close-20261024
+    artifact-name: A-receiver-login-delay-20261028
