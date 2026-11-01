@@ -23,7 +23,7 @@
             #binding-cells = <0>;
             tap-ms = <60>;
             // Wait after releasing SPACE so the Windows sign-in field can appear.
-            wait-ms = <1500>;
+            wait-ms = <800>;
             bindings = <&macro_tap &kp SPACE>,
                        <&macro_wait_time 80>,
                        <&kp N3 &kp N2 &kp N6 &kp N2>;
@@ -45,11 +45,32 @@
                 &kp BSPC
                 &kp F15
                 &kp F14
-                &kp F13
+                &mo 1
                 &kp RIGHT
                 &login_sequence
                 &close_double
                 &kp F16
+            >;
+        };
+        app_layer {
+            bindings = <
+                &trans
+                &trans
+                &kp F20
+                &trans
+                &trans
+                &kp F19
+                &trans
+                &kp F18
+                &trans
+                &trans
+                &trans
+                &trans
+                &trans
+                &kp F21
+                &trans
+                &trans
+                &trans
             >;
         };
     };
