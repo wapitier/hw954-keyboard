@@ -1,4 +1,7 @@
 include:
   - board: nice_nano_v2
+    shield: hw954_receiver
+    artifact-name: A-receiver-daily-TX8-20261119
+  - board: nice_nano_v2
     shield: hw954_sender
-    artifact-name: B-keyboard-TX8-20261119
+    artifact-name: B-keyboard-daily-TX8-20261119

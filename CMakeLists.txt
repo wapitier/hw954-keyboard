@@ -1,7 +1,2 @@
-if(CONFIG_ZMK_SPLIT_ROLE_CENTRAL)
-  target_sources(app PRIVATE ${CMAKE_CURRENT_LIST_DIR}/diagnostics/hw954_diag.c)
-  execute_process(COMMAND ${PYTHON_EXECUTABLE} ${CMAKE_CURRENT_LIST_DIR}/diagnostics/trace.py ${APPLICATION_SOURCE_DIR}/src/split/bluetooth/central.c RESULT_VARIABLE trace_result)
-  if(NOT trace_result EQUAL 0)
-    message(FATAL_ERROR "HW954 trace patch failed; inspect pinned ZMK source")
-  endif()
-endif()
+# Daily firmware: diagnostics intentionally not registered.
+# No diagnostic sources, RSSI polling, or upstream trace patches.
