@@ -1,5 +1,4 @@
 include:
   - board: nice_nano_v2
-    shield: hw954_receiver
-    snippet: zmk-usb-logging
-    artifact-name: A-receiver-RSSI-20261119
+    shield: hw954_sender
+    artifact-name: B-keyboard-TX8-20261119
